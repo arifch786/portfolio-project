@@ -1,24 +1,10 @@
 import Image from "next/image";
-import { CgDarkMode } from "react-icons/cg";
 import { FaWordpress, FaWordpressSimple } from "react-icons/fa";
 import { AiFillCode } from "react-icons/ai";
 import { BiBookContent } from "react-icons/bi";
-import { SiWebstorm } from "react-icons/si";
-import Link from "next/link";
-import wordPress from "../pages/wordpress";
 import dpsection2 from "../public/dev-img01.png";
 
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillGithub,
-  AiFillMobile,
-} from "react-icons/ai";
-
-import { Inter } from "@next/font/google";
-import devimg from "../public/dev-img02.gif";
-import dp from "../public/dp.png";
-
+import { AiFillMobile } from "react-icons/ai";
 const Services = () => {
   return (
     <div>

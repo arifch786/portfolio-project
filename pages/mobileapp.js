@@ -13,6 +13,7 @@ const mobileapp = () => {
                   <div className="relative">
                     <Image
                       src={dp2}
+                      priority={true}
                       alt="loading..."
                       className="dark:shadow-xl border-white dark:border-gray-800 rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]"
                     />

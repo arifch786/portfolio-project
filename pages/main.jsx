@@ -11,22 +11,6 @@ const main = () => {
   return (
     <main className="bg-white ">
       <section className="page01 min-h-screen px-10 bg-slate-100">
-        {/* <nav className="py-10  mb-12 flex justify-between">
-          <h1 className="text-2xl font-semibold">Arif.</h1>
-          <ul className="flex items-center ">
-            <li className={`${darkMode ? "dark" : "light"} mode-container`}>
-              <button onClick={toggleDarkMode}>
-                <CgDarkMode className="cursor-pointer text-2xl" />
-              </button>
-            </li>
-
-            <li>
-              <button className="bg-gradient-to-r from-cyan-700 bg-cyan-500 text-white px-4 py-2 rounded-md ml-8 ">
-                Resume
-              </button>
-            </li>
-          </ul>
-        </nav> */}
         <div className="text-center ">
           <h2 className="text-4xl font-semibold py-5 text-teal-600">
             Muhammad Arif Raza
@@ -42,7 +26,7 @@ const main = () => {
           </p>
         </div>
         <div className="flex  justify-center mx-auto relative">
-          <Image src={devimg} alt="loading..." />
+          <Image src={devimg} priority={true} alt="loading..." />
         </div>
         <div className="  flex pb-5 justify-center space-x-10">
           <AiFillTwitterCircle className="text-3xl  text-gray-600" />

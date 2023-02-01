@@ -15,7 +15,7 @@ const Portfolio = () => {
       <section className="page03 bg-slate-100">
         <div className=" p-10 text-center xl:flex justify-center items-center   w-full pt-10 grid grid-cols-1 divide-y ">
           <div className=" flex justify-center">
-            <Image src={dp} alt="loading..." />
+            <Image src={dp} priority={true} alt="loading..." />
           </div>
           <div className=" ">
             <h1 className="sm:text-3xl text-4xl uppercase font-bold title-font mt-4 mb-4 text-teal-600">

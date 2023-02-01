@@ -1,11 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import dpsection2 from "../public/dev-img01.png";
-
 import Main from "./main";
 import Contact from "./contact";
-import contact from "./contact";
-import NavBar from "../pages/layout/Navbar";
 import Service from "../pages/Services";
 import Portfolio from "./Portfolio";
 
@@ -18,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {NavBar()}
+
       {Main()}
       {Service()}
       {Portfolio()}
